@@ -15,11 +15,15 @@ body {
     font-size: 100%;
 }
 
-.container{
+.container {
     max-width: 64rem;
-    min-width: 20rem;
+    min-width: 22.5rem;
     margin: 1rem auto;
     padding: 1rem;
+}
+
+header p {
+    margin-bottom: 1rem;
 }
 
 h1 {
@@ -28,15 +32,15 @@ h1 {
     color: #405B5B;
 }
 
-.slogan{
+.slogan {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.container-images{
+.container-images {
     display: flex;
     max-width: 50%;
-    gap:1rem;
+    gap: 1rem;
     margin: 3rem 0;
     padding: 0 0.4rem 0 0;
 }
@@ -53,17 +57,17 @@ h3 {
     margin-bottom: 1rem;
 }
 
-/* TODO: no fliud border: height & width */
 .button {
     font-family: 'Fjalla One', sans-serif;
     font-size: 1.25rem;
     color: #405B5B;
     border: 2px solid #405B5B;
-    height: 8vh;
-    width: 10vw;  
-    padding: 1rem;
-    text-wrap: nowrap;
-    text-align: center;
+    height: 4rem;
+    width: 10rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1rem 0;
 }
 
@@ -71,13 +75,19 @@ section {
     margin-bottom: 1rem;
 }
 
-footer{
+footer {
     background-color: #182222;
     color: #405B5B;
     text-align: center;
-    height: 25vh;
+    padding: 3rem 1rem;
 }
 
 footer>h3 {
+    font-family: 'Fjalla One', sans-serif;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: 1rem;
 }
